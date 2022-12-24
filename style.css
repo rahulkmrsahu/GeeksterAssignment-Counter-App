@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    margin-top: 10px;
+    letter-spacing: 15px;
+}
+
+.button_container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+.counter-minus,
+.counter-plus,
+.counter-reset {
+    height: 60px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 16px;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
